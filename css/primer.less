@@ -1,0 +1,22 @@
+@colorfondo:red;
+@colorp:violet;
+@border:1px;
+
+#prueba{
+	
+	border:@border solid blue;
+	width:200px;
+	height:200px;
+	background:@colorfondo;
+	margin-left:2em;
+	border-left: @border+2 solid blue;
+
+p{
+	color:@colorp;
+	font-size:3em;
+	text-align:center;
+	&:hover{color:white;}
+}
+
+
+}
