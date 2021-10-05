@@ -1,0 +1,135 @@
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+body{
+	background: #fffffa;
+}
+
+header{
+	width: 100%;
+	margin-bottom: 55px;
+
+}
+
+header nav {
+	width: 100%;
+	/*max-width: 1000px;*/
+	/*margin:20px auto;*/
+	background: #024959;
+	position: fixed;
+	top: 0;
+ 	left: 0;
+ 	right: 0;
+
+
+}
+
+.menu_bar{
+	display: none;
+}
+
+
+
+header nav ul li{
+	float: left;
+	/*display: inline-block; tambie se puede poner con display*/
+	margin-left: 40px;
+
+}
+
+header nav ul{
+	overflow: hidden;
+	list-style: none;
+
+}
+
+header nav ul li a{
+
+	color: #fff;
+	padding: 20px;
+	display: block; /*se pone este display para poder modificar los paddin a los lados también, sino se modifica solo arriba y abajo*/
+	text-decoration: none;
+
+}
+
+header nav ul li span{
+	margin-right: 10px;
+}
+
+header nav ul li a:hover{
+	background: #037e8c;
+}
+
+section{
+	
+	padding: 30px;
+}	
+
+@media screen and (max-width: 800px){
+
+	body{
+		padding-top: 80px;
+	}
+
+	header{
+		margin-bottom: 10px;
+	}
+
+	header nav{
+		width: 80%;
+		height: 100%;
+		left: -100%;
+		margin: 0;
+		position: fixed;
+		
+	}
+
+	header nav ul li{
+		display: block;
+		float: none;
+		border-bottom: 1px solid rgba(255,255,255, .3);
+		margin-left: -5px;
+	}
+
+	/*section{
+	
+	margin-top: 60px;
+ }*/
+
+	.menu_bar{
+		display: block;
+		width: 100%;
+		background: #ccc;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.menu_bar .bt-menu{
+		display: block;
+		padding: 20px;
+		background: #024959;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	}
+
+	.menu_bar span{
+		float: right;
+		font-size: 40px;
+
+	}
+
+}
+

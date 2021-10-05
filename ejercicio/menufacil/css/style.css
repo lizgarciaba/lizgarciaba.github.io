@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+	background: #313D52;
+	color: #fff;
+}
+
+.menu_bar{
+	display: none;
+}
+
+
+section{
+	margin-top: 60px;
+}
+
+span.icon-mail,.icon-home,.icon-users,.icon-suitcase{
+	color: #3d8ef3;
+}
+
+span.icon-thumbs-up{
+	color: #08c42e;
+}
+
+nav.navegacion ul.menu{
+	margin-left: 80px;
+}
+
+
+.navegacion{
+	/*width: 1000px;*/
+	width: 100%;
+	/*margin: 30px auto;*/
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.navegacion ul{
+	list-style: none;
+
+}
+/*llamamos a los li que esta dentro de la clase menu*/
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: "open sans";
+	text-decoration: none;
+
+}
+
+.menu li a:hover{
+	color: #ce7d35;
+	transition: all .6s;
+}
+
+/*submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	/*display: none;*/
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: "open sans";
+	text-decoration: none;
+
+}
+
+.menu li:hover .submenu{
+	/*display: block;*/
+	visibility: visible;
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px){
+
+   section{
+	margin-top: 80px;
+}
+
+   header nav.navegacion{
+		width: 80%;
+		height: 100%;
+		margin: 0;
+		left: -100%;
+		position: fixed;
+
+		
+	}
+
+nav.navegacion ul.menu> li{
+		display: block;
+		border-bottom: 1px solid rgba(133,193,233, .3);
+		margin-left: -60px;
+	}
+
+.menu_bar{
+		display: block;
+		width: 100%;
+		background: #ccc;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+.menu_bar .bt-menu{
+		display: block;
+		padding: 20px;
+		background: #024959;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	}
+.menu_bar span{
+		float: right;
+		font-size: 40px;
+
+	}
+
+	.submenu{
+		background: #fff;
+		width: 80%;
+		
+	}
+
+	.submenu li{
+	border-bottom: 1px solid rgba(133,193,233, .3);
+	}
+
+	.submenu li a{
+		color: black;
+	}
+
+
+.menu li:hover .submenu{
+	position: relative;
+}
+	
+
+}
+	
+

@@ -1,0 +1,317 @@
+
+ 		*{
+	margin: 0;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+	article.uno{
+		text-align: justify;
+	}
+
+	aside{
+		float: right;
+
+	}
+	
+	body{
+		font-size: 16px;
+		font-family: sans-serif;
+		text-align: justify;
+	}
+
+	header{
+		width:100%;
+		
+	}	
+
+ 		h1{
+ 			color: #C60624;
+ 			margin-top: 55px;
+			text-align: center;
+			text-shadow: 2px 2px #5b5e5e;
+		    
+ 		}
+
+ 		
+
+ 		
+	    nav{
+ 			background: black;
+ 			/*height: 80px;*/
+ 			top: 0;
+ 			left: 0;
+ 			right: 0;
+ 			position:  fixed;
+ 			text-align: center;
+ 			width: 100%;
+ 			box-shadow: 10px 10px 5px grey;
+ 			
+ 		}
+
+ 		marquee{
+ 			margin-top: 20px;
+ 		}
+
+ 		nav ul li a{
+
+ 			color: white;
+ 			text-decoration: none;
+ 			font-size: 20px;
+
+
+ 		}
+
+
+
+
+ 		nav ul li{
+ 			/*background: #FFA07A;*/
+ 			display: inline-block;
+ 			padding: 20px;
+ 			
+ 			
+ 		}
+
+ 		nav ul li:hover{
+ 			background: #037e8c;
+ 			transition:all 8s;
+ 		}
+
+ 		span{
+ 			
+ 			margin-left: 30px;
+ 		}
+
+
+ 		footer{
+ 			background: pink;
+ 			height: 100px;
+ 			margin-top: 40px;
+ 			margin-bottom: 0;
+ 			text-shadow: 2px 2px 5px #5b5e5e;
+ 	 		width: 100%;
+ 		}
+
+ 		.contenedor{
+ 			
+ 			margin: 0 auto;
+ 			width: 80%;
+ 		}
+
+ 		.contenedor2{
+ 			margin-bottom: 45px;
+ 		}
+
+ 		div.datos{
+ 			color: blue;
+ 			display: block;
+ 			font-size: 18px;
+ 			margin-left: 50px;
+ 			padding: 15px;
+ 			
+ 		}
+
+ 		
+
+ 		.email{
+ 			margin-top: 20px;
+ 		}
+
+ 		
+ 		.fotos{
+ 			margin-top: 20px;
+ 		}
+
+
+ 		.imagen1{
+			float: left;
+			width: 35%;
+		}
+
+		.fotos{
+
+			clear: left;
+
+		}
+
+	.fa-css3-alt{
+		color: #f04318;
+		font-size:;
+	}
+
+	.fa-dog{
+		color:#1109bd;
+	}	
+
+
+
+		.img-container {
+ 			 float: left;
+ 			 width: 33.3%;
+ 			 padding: 5px;
+ 			
+
+		}
+
+		.piefoto{
+			color:red;
+			 text-align: center;
+		}
+
+/* Estilo para el boton "Ir Arriba" */
+		.scroll-top {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: none; /* Estara oculto por defecto*/
+    text-indent: -9999px;  /*Oculta el texto del enlace*/ 
+    z-index: 1000;  /*Evita que otros elementos esten por encima*/ 
+    background: url('../img/arriba.png') no-repeat;
+}
+/* Estilo para generar un efecto al posicionar el puntero encima del botón */
+.scroll-top:hover {
+    opacity: 0.8;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.social{
+	position: fixed;
+	left: 0;
+	top: 250px;
+	z-index: 2000;
+}
+
+.social ul{
+	list-style: none;
+}
+
+.social ul li a{
+	display: inline-block;
+	color: #fff;
+	background: #999999;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.social ul li .icon-google{
+	background: #d95232;
+}
+
+.social ul li .icon-twitter{
+	background: #00abf0;
+}
+
+.social ul li .icon-youtube{
+	background: #f60915;
+}
+
+.social ul li .icon-instagram{
+	background: #ff8c2a;
+}
+
+.social ul li a:hover{
+	padding: 15px 30px;
+	background: #000;
+}
+
+/*animacion*/
+.social ul li a{
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+
+
+
+
+ 		#imagen1{
+
+ 			margin-top: 50px;
+
+ 		}
+
+
+
+
+
+ @media screen and (max-width: 800px){
+
+ 			
+ 			aside{
+
+ 				margin-bottom: 30px;
+ 			}
+
+ 			article.uno{
+ 				margin-top: 35px;
+ 			}
+
+ 		footer{
+ 			font-size: 14px;
+ 		}	
+
+
+ 			nav ul li a{
+
+ 			font-size: 10px;
+
+ 			}
+
+ 	       nav ul li{
+			
+     		padding: 5px;
+     		margin-left: -4px;
+ 			
+ 			
+ 		  }	
+
+
+ 			.contenedor2{
+ 			margin-bottom: 10px;
+ 		}
+
+ 			.imagen1{
+ 				width: 60%;
+ 			}
+
+ 			.img-container{
+ 				float: none;
+ 				width: 75%;
+ 				margin-left: auto;
+ 				margin-right: auto;
+ 			}
+ 			
+.social ul li a{
+	
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.social ul li a:hover{
+	padding: 10px 30px;
+
+}
+	
+
+	}
+
+
+	
