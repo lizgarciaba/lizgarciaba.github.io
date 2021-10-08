@@ -1,0 +1,571 @@
+{
+	margin: 0;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+article{
+
+	background: #b8daff;
+	border-style: outset;
+	border-radius: 15px;
+	border-width: 5px;
+	border-color: white;
+
+}
+
+article.jose{
+	height:550px;
+}
+
+.contacto{
+	font-family: 'Marck Script', cursive;
+	font-size: 20px;
+
+}
+
+
+
+.oracion{
+	font-size: 18px;
+}
+
+
+body{
+
+	font-family: "georgia";
+	font-size: 18px;
+}
+
+div.amanecer,.servir{
+	padding: 10px;
+
+}
+
+div.amanecer img{
+	float: left;
+	margin-right: 10px;
+
+}
+
+div.servir img{
+	
+	float: left;
+	margin-right:5px;
+	
+}
+
+
+.dropdown-menu li a{
+	color: #072c54;
+	font-size: 18px;	
+}
+
+
+
+
+footer{
+	background:  #b8daff;
+
+	height: 120px; 
+	margin-top: 20px;
+}
+
+
+footer ul{
+	padding: 5px;
+}
+
+
+
+h2{
+
+	color: #072c54;
+	/*font-family: 'Marck Script', cursive;*/
+	text-align: center;
+	
+	
+}
+
+h3{
+	color: #45065C;
+	padding: 5px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h4 {
+	color: 02237c;
+	padding: 2px;
+	text-align: center;
+	text-shadow: 2px 2px 5px #49494b;
+}
+
+h5{
+	color: #d70723;
+	float: right;
+	margin-top: -30px;
+	margin-right: 10px;
+
+}
+
+header{
+	margin-top: 100px;
+	
+}
+
+/*nav a{
+
+	background: tomato;
+	border-radius: 5px;
+	border-style: double;
+	color: red;
+	text-decoration:none;
+	
+
+	padding: 10px;
+}
+
+nav a:hover{
+	color: orange;
+	text-decoration: none;
+
+}*/
+
+
+/*img{
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}*/
+
+
+
+/*nav {
+		
+	box-shadow: 10px 10px grey;
+	font-size: 18px;
+	height: 60px;
+}*/
+ 
+li.fijo{
+	background: #fff;
+
+}
+
+p{
+	text-align: justify;
+}
+
+/*ul .dropdown-menu{
+	font-size: 16px;
+}*/
+
+
+/* .nav{
+	background: white;
+}
+
+
+.nav, .navbar-nav{
+	margin-left:100px;
+}
+
+.navbar-toggle, .collapsed{
+	background-color: #072c54;
+}*/
+
+section{
+	margin-top: 80px;
+	
+}
+
+.dos{
+	margin-top: 20px;
+
+}
+
+.caret{
+	color: #9c0808;
+	
+}
+
+img.generosidad{
+	margin-top: -15px;
+	
+}
+
+img.san-jose{
+	height: 350px;
+}
+ 
+
+.glyphicon-home, .glyphicon-fire, .glyphicon-heart, .glyphicon-move, .glyphicon-envelope, .glyphicon-earphone{
+
+	color: #9c0808;
+	margin-right: 5px;
+}
+
+
+/*.icon-hand, .icon-phone{
+	color: #9c0808;
+	margin-right: 5px;
+}*/
+
+.icon-bar{
+	color: #072c54;
+}
+
+
+.icon-facebook-with-circle, .icon-instagram-with-circle, .icon-twitter-with-circle{
+
+	font-size: 25px;
+} 
+.icon-facebook-with-circle{
+	color: #2c4e8c;
+}
+.icon-twitter-with-circle{
+	color: #3091b8;
+}
+
+
+.glyphicon-move{
+	font-size: 20px;
+}
+
+.icon-instagram-with-circle{
+	color: #88080e;
+}
+
+
+
+.scroll-top {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: none; /* Estara oculto por defecto*/
+    text-indent: -9999px;  /*Oculta el texto del enlace*/ 
+    z-index: 1000;  /*Evita que otros elementos esten por encima*/ 
+    background: url('../fotos/arriba.png') no-repeat;
+}
+
+.scroll-top:hover {
+    opacity: 0.8;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+
+.social{
+	position: fixed;
+	left: -40px;
+	top:300px;
+	z-index: 2000;
+
+	
+}
+
+.social ul{
+	list-style: none;
+}
+
+.social ul li a{
+	display: inline-block;
+	color: #fff;
+	background: #000;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.social ul li .icon-facebook{
+	background: #3b5998;
+	font-size: 30px;
+
+}
+
+
+.social ul li .icon-instagram{
+	background: #ff8c2a;
+	font-size: 30px;
+}
+
+.social ul li .icon-twitter{
+	background: #00abf0;
+	font-size: 30px;
+}
+
+
+
+.social ul li a:hover{
+	padding: 15px 35px;
+	background: #000;
+}
+
+/*animacion*/
+.social ul li a{
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+#movimiento{
+	animation-timing-function: linear;
+}
+
+.menu_bar{
+	display: none;
+}
+
+span.icon-mail,.icon-home,.icon-hand,.icon-heart,.icon-spreadsheet{
+	color: #9c0808;
+}
+
+span.icon-thumbs-up{
+	color: #08c42e;
+}
+
+nav.navegacion ul.menu{
+	/*margin-left: 80px;*/
+}
+
+
+.navegacion{
+	/*width: 1000px;*/
+	width: 100%;
+	/*margin: 30px auto;*/
+	background: #e5e7e9;
+	box-shadow: 10px 10px 5px #bfc9ca;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 55px;
+	text-align: center;
+}
+
+.navegacion ul{
+	list-style: none;
+
+}
+/*llamamos a los li que esta dentro de la clase menu*/
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: "open sans";
+	text-decoration: none;
+
+}
+
+.menu li a:hover{
+	color: #ce7d35;
+	transition: all .6s;
+}
+
+/*submenu*/
+
+.submenu{
+	position: absolute;
+	background: #e5e7e9;
+	width: 100%;
+	visibility: hidden;
+	/*display: none;*/
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: black;
+	font-family: "open sans";
+	text-decoration: none;
+	margin-left: -30px;
+	
+
+}
+
+.menu li:hover .submenu{
+	/*display: block;*/
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+@media screen and (max-width: 800px){
+
+article.jose{
+	height:650px;
+}
+
+div.amanecer img{
+    display: block;
+    float: none;
+    margin:auto;
+}
+
+div.servir img{
+	display: block;
+	float: none;
+	margin: auto;
+}
+
+
+
+footer{
+	background: #024959;
+}
+
+h4,.glyphicon-envelope, .glyphicon-earphone{
+	color: #fff;
+}
+
+img{
+
+	width: 65%;
+}
+
+
+iframe{
+	width: 315px;
+	height: 400px;
+}
+
+
+.social ul li .icon-facebook{
+	
+	font-size: 15px;
+
+}
+
+
+.social ul li .icon-instagram{
+
+	font-size: 15px;
+}
+
+.social ul li .icon-twitter{
+	
+	font-size: 15px;
+}
+
+
+
+ header nav.navegacion{
+		
+		width: 80%;
+		height: 70%;
+		margin: 0;
+		left: -100%;
+		position: fixed;
+		text-align:left;
+	
+}
+
+img.san-jose{
+	height: 200px;
+	width: 150px;
+}
+
+
+
+
+
+nav.navegacion ul.menu> li{
+		display: block;
+		border-bottom: 1px solid rgba(133,193,233, .3);
+		margin-left: -50px;
+
+	}
+
+.menu_bar{
+		display: block;
+		width: 100%;
+		background: #ccc;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+.menu_bar .bt-menu{
+		display: block;
+		padding: 20px;
+		background: #024959;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	}
+.menu_bar span{
+		float: right;
+		font-size: 40px;
+
+	}
+
+.navegacion{
+	box-shadow: none;
+}
+
+
+.submenu{
+		background: #e5e7e9;
+		width: 80%;
+		
+	}
+
+	.submenu li{
+	border-bottom: 1px solid rgba(133,193,233, .3);
+	}
+
+	.submenu li a{
+		color: black;
+		margin-left: 15px;
+	}
+
+
+.menu li:hover .submenu{
+	position: relative;
+}
+	
+
+
+	}
+
+@media screen and (min-width: 700px){
+
+	iframe{
+	width: 560px;
+	height: 450px;
+}
+
+
+}
+
