@@ -79,7 +79,8 @@ background: -o-linear-gradient(top, #4c4c4c 8%,#595959 15%,#4c4c4c 19%,#2c2c2c 3
 background: -ms-linear-gradient(top, #4c4c4c 8%,#595959 15%,#4c4c4c 19%,#2c2c2c 35%,#474747 39%,#111111 68%,#2b2b2b 85%,#111111 86%,#1c1c1c 97%,#131313 100%); /* IE10+ */
 background: linear-gradient(to bottom, #4c4c4c 8%,#595959 15%,#4c4c4c 19%,#2c2c2c 35%,#474747 39%,#111111 68%,#2b2b2b 85%,#111111 86%,#1c1c1c 97%,#131313 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */;
-	font-family: 'Racing Sans One', cursive;
+	/*font-family: 'Racing Sans One', cursive;*/
+	font-family: "verdana";
 	font-size: 16px;
 	 margin-bottom: 120px;
 
