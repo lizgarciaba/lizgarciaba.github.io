@@ -91,7 +91,8 @@ footer{
 	box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 	bottom: 0;
 	color:#071D70;
-	font-size: 2em; 
+	font-size: 2em;
+	font-weight: bold;
 	margin-left:5px;
 	margin-top: 50px;
 	padding: 8px;
