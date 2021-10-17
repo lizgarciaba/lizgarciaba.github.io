@@ -1,0 +1,139 @@
+
+*{
+	margin: 0;
+	padding: 0;
+
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+	background: #f2f2f2;
+}
+
+h1,h4{
+	text-align: center;
+} 
+
+h4{
+	color: white;
+	margin-top: 40px;
+
+
+}
+
+
+nav{
+	width: 100%;
+	background: black;
+	
+	position:fixed;
+	top:0;
+	left: 0;
+	right: 0;
+}
+
+
+
+footer{
+	background: black;
+	/*width: 100%;*/
+	margin-top: 10px;
+	height: 120px;
+
+}
+
+.social div{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+section{
+	margin-top: 80px;
+}
+
+.bi-whatsapp{
+	color: green;
+}
+
+.bi-facebook{
+	color: blue;
+}
+
+.bi-instagram{
+	color: red;
+}
+
+.bi-whatsapp, .bi-facebook, .bi-instagram{
+	font-size: 25px;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+
+
+.flex-container > div {
+  background: #CACFCF;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.flex-container > div:hover {
+  background: #F2F8F8;
+  color: #EF2F04;
+  cursor:pointer;
+  transition:all 5s;
+  border-radius: 10px 5px 10px 5px;
+  
+  
+}
+
+
+.menu_bar{
+	display: none;
+}
+
+
+@media screen and (max-width: 700px){
+
+	article{
+		/*margin-top: 150px;*/
+		padding: 10px;
+	}
+
+	
+
+
+	.flex-container {
+    flex-direction: column;
+     
+
+  }
+
+  
+
+.flex-container > div {
+  border-radius: 5px;
+  
+}
+
+.imagenes{
+	display: grid;
+	grid-gap: 20px;
+}
+
+
+
+
+
+}
