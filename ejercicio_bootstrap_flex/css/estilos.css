@@ -39,7 +39,7 @@ nav{
 
 footer{
 	background: black;
-	/*width: 100%;*/
+	max-width: 200%;
 	margin-top: 10px;
 	height: 120px;
 
@@ -50,6 +50,42 @@ footer{
 	margin-right: 10px;
 	margin-top: 10px;
 }
+
+
+.sociall{
+	position: fixed;
+	left: 0;
+	top: 200px;
+	z-index: 2000;
+}
+
+.sociall ul{
+	list-style: none;
+}
+
+.sociall ul li a{
+	display: inline-block;
+	color: #000;
+	background:#e8ece7;
+	padding: 15px 20px;
+	text-decoration: none;
+}
+
+.sociall ul li a:hover{
+	padding: 15px 35px;
+	background: #000;
+}
+
+/*animacion*/
+.sociall ul li a{
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+
+
 
 section{
 	margin-top: 80px;
@@ -67,7 +103,11 @@ section{
 	color: red;
 }
 
-.bi-whatsapp, .bi-facebook, .bi-instagram{
+.bi-twitter{
+	color: #06d7e1;
+}
+
+.bi-whatsapp, .bi-facebook, .bi-instagram, .bi-twitter{
 	font-size: 25px;
 }
 
@@ -85,8 +125,10 @@ section{
   margin: 10px;
   padding: 10px;
   text-align: center;
-  
+
 }
+  
+  
 
 .flex-container > div:hover {
   background: #F2F8F8;
@@ -104,7 +146,7 @@ section{
 }
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
 
 	article{
 		/*margin-top: 150px;*/
@@ -114,22 +156,21 @@ section{
 	
 
 
-	.flex-container {
+ .flex-container {
     flex-direction: column;
      
 
   }
-
   
 
-.flex-container > div {
+/*.flex-container > div {
   border-radius: 5px;
   
-}
+}*/
 
 .imagenes{
 	display: grid;
-	grid-gap: 20px;
+	grid-gap: 15px;
 }
 
 
