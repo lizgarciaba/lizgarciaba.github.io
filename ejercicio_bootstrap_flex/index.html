@@ -132,6 +132,8 @@
 
 		</section>	
 
+
+		<a href="#" class="scroll-top">Ir arriba</a>
 		<footer class="row" >
 			<div class="social" >
 				<div><a href=""><i class="bi bi-facebook"></i></a></div>
@@ -152,5 +154,51 @@
 
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+
+	<!-- estos script son para el boton de subir-->
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".menu_salto").change(function(){
+			var val= $('select option:selected').val();
+			if (val !=''){
+				location.href=val;
+			}
+
+
+		});
+
+	});
+</script>
+<script>
+	$(function() {
+    //Se activa cuando el scroll supera los 100px
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('a.scroll-top').fadeIn();
+        } else {
+            $('a.scroll-top').fadeOut();
+        }
+    });
+    //Crea la animacion al dar clic sobre el boton
+    $('a.scroll-top').click(function() {
+        $("html, body").animate({scrollTop: 0}, 600);
+        return false;
+    });
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+	
 </body>
 </html>

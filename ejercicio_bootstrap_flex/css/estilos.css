@@ -13,7 +13,9 @@
 body{
 	background: #f2f2f2;
 	font-family: "helvetica now";
-	font-family: 16px;
+	font-size: 16px;
+	text-align: justify;
+
 }
 
 h1,h4{
@@ -87,6 +89,29 @@ footer{
 	transition: all 500ms ease;
 }
 
+.scroll-top {
+    width: 40px;
+    height: 40px;
+    opacity: 0.3;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    display: none; /* Estara oculto por defecto*/
+    text-indent: -9999px;  /*Oculta el texto del enlace*/ 
+    z-index: 1000;  /*Evita que otros elementos esten por encima*/ 
+    background: url('../fotos/arriba.png') no-repeat;
+}
+
+.scroll-top:hover {
+    opacity: 0.8;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -o-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+
 
 
 
@@ -144,10 +169,6 @@ section{
 }
 
 
-.menu_bar{
-	display: none;
-}
-
 
 @media screen and (max-width: 800px){
 
@@ -159,11 +180,11 @@ section{
 	
 
 
- .flex-container {
+ /*.flex-container {
     flex-direction: column;
      
 
-  }
+  }*/
   
 
 /*.flex-container > div {
