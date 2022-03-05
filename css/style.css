@@ -509,7 +509,7 @@ ul#numeros li a:hover{
 	display: inline-block;
 	color: #fff;
 	background: #999999;
-	padding: 10px 15px;
+	padding: 20px 25px;
 	text-decoration: none;
 }
 
@@ -530,7 +530,7 @@ ul#numeros li a:hover{
 }
 
 .social ul li a:hover{
-	padding: 10px 30px;
+	padding: 20px 40px;
 	background: #000;
 }
 
