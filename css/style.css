@@ -451,6 +451,31 @@ ul#numeros li a:hover{
 	color: green;
 }
 
+.bi-instagram,.bi-twitter, .bi-youtube{
+	font-size: 25px;
+
+}
+
+.bi-instagram{
+	color: #e10923;
+}
+
+.bi-twitter{
+	color: #05c3bd;
+}
+
+.bi-youtube{
+	color: #9b0719;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+.flex-container > div {
+ padding: 5px;
+}
 
 .scroll-top {
     width: 40px;
@@ -996,6 +1021,8 @@ footer::after{
 	footer{
 	width: 95%;
 }
+
+	
 
 
 	}
