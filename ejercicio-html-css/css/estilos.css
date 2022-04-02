@@ -1,0 +1,119 @@
+*{
+	text-align: justify;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: ;
+}
+
+article{
+	/*border: 1px red solid;*/
+	margin:10px;
+	padding: 5px;
+	
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1{
+	text-align: center;
+}
+
+h1{
+	display: none;
+}
+
+nav{
+		
+ 	background: white;
+ 	left: 0;
+ 	position: fixed;
+ 	right: 0;
+ 	top: 0;
+}
+
+p{
+	cursor: pointer;
+}
+
+p:hover+h1{
+	display: block;
+	
+
+}
+
+section{
+	margin-top: 50px;
+}
+
+
+
+.bi-house,
+.bi-envelope-fill,
+.bi-image-fill,
+.bi-bag-plus-fill,
+.bi-bar-chart-fill{
+	color: #e51908;
+}
+
+
+.flex-container {
+  background-color: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-container > div {
+  
+  /*background: #cfcbcb;
+  border-radius: 10px 20px;
+  padding: 10px;*/
+  margin: 10px;
+  text-align: center;
+  
+  
+}
+
+
+.main{
+	max-width: 1024px;
+	margin:0 auto; 
+	width:90%;
+}
+
+.selectores-atributos a[href]{
+	color: green;
+	text-decoration: none;
+
+
+}
+
+.selectores-atributos a[href]:hover{
+	color:red;
+	transition:all 5s;
+	-webkit-transition:all 5s;
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+
+
+}
+
