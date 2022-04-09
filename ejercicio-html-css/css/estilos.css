@@ -13,6 +13,16 @@ article{
 
 }
 
+footer{
+	color:  #ba4a00; 
+	background: black;
+	height: 100px;
+	width: 100%;
+	
+}
+
+
+
 html{
 	scroll-behavior: smooth;
 }
@@ -77,6 +87,12 @@ section{
   
 }
 
+.footer{
+
+	text-align: center;
+	padding: 30px;
+}
+
 
 .main{
 	max-width: 1024px;
@@ -115,6 +131,15 @@ section{
 	section{
 	margin-top: 80px;
 }
+
+
+
+}
+
+@media screen and (max-width: 800px){
+
+
+
 
 
 
