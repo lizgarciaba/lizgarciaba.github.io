@@ -221,6 +221,10 @@ img.san-jose{
 	margin-right: 5px;
 }*/
 
+.glyphicon-envelope, .glyphicon-earphone{
+	color: #fff;
+}
+
 .icon-bar{
 	color: #072c54;
 }
