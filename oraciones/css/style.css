@@ -24,7 +24,7 @@ article{
 }
 
 article.jose{
-	height:550px;
+	
 }
 
 .contacto{
@@ -119,6 +119,13 @@ h5{
 header{
 	margin-top: 100px;
 	
+}
+
+hr{
+	color: #0b51cd;
+	background: #0b51cd;
+	height: 3px;
+	width: 50%;
 }
 
 /*nav a{
@@ -421,9 +428,7 @@ nav.navegacion ul.menu{
 
 @media screen and (max-width: 800px){
 
-article.jose{
-	height:650px;
-}
+
 
 div.amanecer img{
     display: block;
