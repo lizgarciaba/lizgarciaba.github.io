@@ -459,22 +459,6 @@ iframe{
 }
 
 
-.social ul li .icon-facebook{
-	
-	font-size: 15px;
-
-}
-
-
-.social ul li .icon-instagram{
-
-	font-size: 15px;
-}
-
-.social ul li .icon-twitter{
-	
-	font-size: 15px;
-}
 
 
 
@@ -537,6 +521,9 @@ nav.navegacion ul.menu> li{
 	box-shadow: none;
 }
 
+.social{
+	display: none;
+}
 
 .submenu{
 		background: #e5e7e9;
