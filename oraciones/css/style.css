@@ -163,6 +163,10 @@ li.fijo{
 
 }
 
+label{
+	color: #b80b2d;
+}
+
 p{
 	text-align: justify;
 }
@@ -333,6 +337,13 @@ img.san-jose{
 	-moz-transition: all 500ms ease;
 	transition: all 500ms ease;
 }
+
+.pseudoelementos::placeholder{
+	color:#1e269b;
+	font-size: 20px;
+
+}
+
 
 #movimiento{
 	animation-timing-function: linear;
