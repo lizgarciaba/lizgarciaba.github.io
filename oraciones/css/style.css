@@ -122,6 +122,16 @@ hr{
 	width: 50%;
 }
 
+input[type="email"],input[type="text"],textarea#comentario{
+	background:#eee;  
+	
+	color:#1e269b;
+	font-size:20px;
+	padding:2px;
+	
+}
+
+
 /*nav a{
 
 	background: tomato;
