@@ -230,7 +230,13 @@ img.generosidad{
 img.san-jose{
 	height: 350px;
 }
+
+.flex-container{
+  display: flex;
+  justify-content: flex-end;
  
+}	
+
 
 .glyphicon-home, .glyphicon-fire, .glyphicon-heart, .glyphicon-move, .glyphicon-envelope, .glyphicon-earphone{
 
@@ -452,6 +458,9 @@ nav.navegacion ul.menu{
 @media screen and (max-width: 800px){
 
 
+aside{
+	margin-right: 20px;
+}
 
 div.amanecer img{
     display: block;
@@ -521,6 +530,26 @@ nav.navegacion ul.menu> li{
 
 	}
 
+.bi-youtube{
+	color: red;
+}
+
+.bi-twitter{
+	color: #0e69de;
+}
+
+.bi-instagram{
+	color: #bf4407;
+}
+
+
+.flex-container>div{
+  
+  font-size: 20px;
+  margin-left: 10px;
+}	
+
+
 .menu_bar{
 		display: block;
 		width: 100%;
@@ -579,7 +608,7 @@ nav.navegacion ul.menu> li{
 	
 
 
-	}
+}
 
 @media screen and (min-width: 700px){
 
