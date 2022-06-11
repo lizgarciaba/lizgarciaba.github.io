@@ -460,6 +460,7 @@ nav.navegacion ul.menu{
 
 aside{
 	margin-right: 20px;
+	margin-top: 20px;
 }
 
 div.amanecer img{
@@ -542,6 +543,9 @@ nav.navegacion ul.menu> li{
 	color: #bf4407;
 }
 
+.flex-container{
+	display: ;
+}
 
 .flex-container>div{
   
