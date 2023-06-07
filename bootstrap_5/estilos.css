@@ -1,0 +1,77 @@
+html{
+	box-sizing: border-box;
+	font-size: 16px;
+	scroll-behavior: smooth;
+}
+
+*,*:before,*:after{
+	box-sizing: inherit;
+}
+article{
+	margin-bottom: 1rem;
+}
+section{
+	font-size: 1rem;
+	text-align: justify;
+
+}
+
+footer{
+	background-color: black;
+	bottom:0;
+	color:blue;
+	font-size: 1.2rem;
+	height:15%;
+	margin-top: 1.3rem;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+header{
+	margin-bottom: 6.5rem;
+}
+
+.bi-facebook, .bi-instagram, .bi-youtube{
+	font-size: 20px;.bi-youtube
+}
+
+.bi-facebook{
+	color:dodgerblue;
+}
+
+.bi-instagram{
+	color:crimson;
+}
+
+.d-flex{
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+.bi-youtube{
+	color:red;
+}
+
+.bi-whatsapp{
+	color:limegreen;
+}
+
+.fotos{
+	text-align: center;
+}
+
+
+@media screen and (max-width: 500px){
+
+	footer{
+
+		font-size: 0.8rem;
+	}
+
+
+
+	
+
+
+	}
