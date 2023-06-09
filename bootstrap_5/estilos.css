@@ -18,12 +18,12 @@ section{
 
 footer{
 	background-color: black;
-	bottom:0;
+	bottom:;
 	color:blue;
 	font-size: 1.2rem;
 	height:15%;
-	margin-top: 1.3rem;
-	position: fixed;
+	margin-top: ;
+	position: ;
 	text-align: center;
 	width: 100%;
 }
@@ -73,6 +73,7 @@ header{
 
 		margin-top: -5px;
 	}
+
 
 }
 
