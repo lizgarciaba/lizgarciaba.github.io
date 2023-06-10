@@ -9,6 +9,7 @@ html{
 }
 article{
 	margin-bottom: 1rem;
+
 }
 section{
 	font-size: 1rem;
@@ -32,8 +33,13 @@ header{
 	margin-bottom: 6.5rem;
 }
 
+h1{
+	color: red;
+	text-align: center;
+}
+
 .bi-facebook, .bi-instagram, .bi-youtube{
-	font-size: 20px;.bi-youtube
+	font-size: 20px;
 }
 
 .bi-facebook{
@@ -76,5 +82,16 @@ header{
 
 
 }
+
+@media screen and (max-width: 400px){
+
+
+	.d-flex{
+		margin-left: -5px;
+	}
+
+
+
+	}
 
 
