@@ -87,6 +87,10 @@ nav{
 	text-align: center;
 }
 
+.nexgard{
+	margin-left: 15px;
+}
+
 
 @media screen and (max-width: 400px){
 
@@ -95,7 +99,7 @@ nav{
 		margin-left: -5px;
 	}
 
-
+	
 
 	}
 
@@ -113,6 +117,11 @@ nav{
 
 		margin-top: -5px;
 	}
+
+	.nexgard{
+		
+		margin-left: 0px;
+		margin-right: -10px;
 
 
 }
