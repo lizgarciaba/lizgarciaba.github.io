@@ -57,6 +57,31 @@ nav{
 	
 	height: 80px;
 }
+
+.aumento{
+	-webkit-transition:-webkit-transform 1s ease-in-out;
+	 -moz-transition:-moz-transform 1s ease-in-out;
+     -o-transition:-o-transform 1s ease-in-out;
+     -ms-transition:-ms-transform 1s ease-in-out;
+	 transition:transform 1s ease-in-out;
+			
+	
+	
+	
+}
+.aumento:hover{
+	cursor:pointer;
+	 -moz-transform: scale(1.5);
+	 -webkit-transform: scale(1.5);
+	 -o-transform: scale(1.5);
+     -ms-transform: scale(1.5);
+	 transform: scale(1.5);
+	 
+	 	
+}
+
+
+
 .bi-facebook, .bi-instagram, .bi-youtube, .bi-envelope{
 	font-size: 20px;
 }
@@ -97,6 +122,10 @@ nav{
 
 	.d-flex{
 		margin-left: -5px;
+	}
+
+	.titulo{
+		font-size: 1.3rem;
 	}
 
 	
