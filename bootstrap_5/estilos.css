@@ -127,7 +127,7 @@ nav{
 .social{
 	position: fixed;
 	left: -10px;
-	top: 350px;
+	top: 250px;
 	z-index: 2000;
 }
 
@@ -156,6 +156,7 @@ nav{
 	-moz-transition: all 500ms ease;
 	transition: all 500ms ease;
 }
+
 
 
 
