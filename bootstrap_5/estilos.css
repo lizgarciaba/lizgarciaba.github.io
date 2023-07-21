@@ -42,8 +42,25 @@ footer{
 	width: 100%;
 }
 
+form{
+	border: thin solid cornflowerblue;
+	border-radius: 10px;
+	padding: 15px;
+}
+
 header{
 	margin-bottom: 6.5rem;
+}
+
+label{
+	color:cornflowerblue;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+
+textarea{
+	resize:none;
 }
 
 .titulo{
@@ -61,6 +78,17 @@ img{
 	height: 150px;
 }
 
+
+input[type="email"],input[type="text"],textarea#comentario{
+	background:#eee;  
+	
+	color:mediumblue;
+	font-size:1.5rem;
+	padding:5px;
+	
+}
+
+
 nav{
 	
 	height: 80px;
@@ -73,8 +101,7 @@ nav{
      -ms-transition:-ms-transform 1s ease-in-out;
 	 transition:transform 1s ease-in-out;
 			
-	
-	
+
 	
 }
 .aumento:hover{
@@ -89,12 +116,11 @@ nav{
 }
 
 
-
-.bi-facebook, .bi-instagram, .bi-youtube, .bi-envelope{
-	font-size: 20px;
+.bi-facebook, .bi-instagram, .bi-youtube, .bi-envelope-fill{
+	font-size: 25px;
 }
 
-.bi-facebook{
+.bi-facebook, .bi-envelope-fill{
 	color:dodgerblue;
 }
 
@@ -119,6 +145,11 @@ nav{
 .fotos{
 	text-align: center;
 }
+
+.menu-pseudoclases ul li a:hover{
+	color: white;
+}
+
 
 .nexgard{
 	margin-left: 15px;
@@ -157,7 +188,21 @@ nav{
 	transition: all 500ms ease;
 }
 
+.selector-universal *{
+	
+	font-size: 1.2rem;
+}
 
+.selectores-atributos a[href]{
+	color: limegreen;
+	font-weight: bold;
+
+}
+
+ul .pseudoclases li a:hover{
+	color: limegreen;
+	
+}
 
 
 

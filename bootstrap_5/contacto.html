@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap 5, Html, Css</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="estilos.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="shortcut icon" type="imagen/x-icon" href="fotos/bootstrap.png" />
+	<link rel="apple-touch-icon" href="fotos/bootstrap.png">
+	<link rel="canonical" href="https://lizgarciaba.github.io/bootstrap_5">
+	<meta name="description" content="Sitio para practicar lo aprendido de bootstrap5, asi como html y css ">  
+	<meta name="robots" content="index, follow">
+    <meta name="Revisit" content="1 day" />
+    <meta name="Language" content="Spanish" />
+    <meta name="theme-color" content="#c71585">
+    <meta property="og:title" content="Bootstrap 5, Html, Css">
+    <meta property="og:description" content="Sitio para practicar lo aprendido de bootstrap5, asi como html y css ">
+    <meta property="og:url" content="https://lizgarciaba.github.io/bootstrap_5">
+    <meta property="og:image" content="https://lizgarciaba.github.io/bootstrap_5/fotos/bootstrap.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@lizgaba">
+
+
+</head>
+<body>
+	<div class="social d-none d-md-block ">
+    <ul>
+    <li><a href="https://www.facebook.com/veterinarialeyz" target="_blank" ><i class="bi bi-facebook"></i></a></li>
+    <li><a href="https://www.instagram.com/lizgarciaba/" target="_blank" ><i class="bi bi-instagram"></i></a></li>
+    <li><a href="https://www.youtube.com/lizgarciaba/" target="_blank" ><i class="bi bi-youtube"></i></a></li>
+  </ul>
+  </div>
+
+	<div class="container">
+		<header>
+			<nav class="navbar  bg-success fixed-top" >
+  <div class="container-fluid"> 
+    <a class="navbar-brand" style="color:white;" href="#">&nbsp;&nbsp;<i class="bi bi-whatsapp" ></i> &nbsp;0984969143</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+    <div class="offcanvas offcanvas-end bg-success" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" style="color:white;" id="offcanvasNavbarLabel">lizgarciaba@gmail.com</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body menu-pseudoclases">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 selector-universal selectores-atributos">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu bg-success pseudoclases">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#" >Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" style="color:white;">Contacto</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 class="titulo">BOOTSTRAP 5-HTML 5-CSS3</h1>
+
+		</header>
+
+
+
+		<section class="row">
+			<article class="col-">
+
+        <form name="formu" action="https://formsubmit.co/lizgabarre@gmail.com" method="POST" >
+
+      <fieldset > 
+
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control form-control-sm form-control-md form-control-lg" id="nombre" placeholder="Coloca Nombre Y Apellidos" name="nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Nombre solo acepta letras y espacios en blanco"required>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control form-control-sm form-control-md form-control-lg" id="email" placeholder="name@example.com" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Coloca Un Email Valido"required>
+        </div>
+        <div class="mb-3">
+            <label for="comentario" class="form-label">Comentario</label>
+            <textarea class=" form-control form-control-sm form-control-md form-control-lg" type="text" cols="31" rows="5" id="comentario" name="comentario" title="Dejanos tù comentario"placeholder="---" required></textarea>
+        </div>
+       
+        <button type="submit" class="btn btn-primary" id="enviar" name="enviar"><i class="bi bi-send-fill"></i> Enviar</button>
+
+
+
+      </fieldset >    
+        
+        
+        <!--<button type="reset" class="btn btn-success" >Borrar</button>-->
+
+
+        <!--<input type="button" value="enviar" id="enviar" class="btn btn-success" name="enviar" />-->
+        
+        
+      </form>
+
+						
+				
+				
+				
+			</article>
+			<article class="col-12">
+				
+			</article>
+			
+		</section>
+
+		
+		
+	</div>
+
+	<footer>
+		<div class="d-flex flex-row ">
+ 			 <div class="p-2 "><a href="https://www.facebook.com/" target="_blank" ><i class="bi bi-facebook"></i></a></div>
+  			<div class="p-2 "><a href="https://www.instagram.com/lizgarciaba/" target="_blank" ><i class="bi bi-instagram"></i></a></div>
+  			<div class="p-2 "><a href="https://www.youtube.com/lizgarciaba/" target="_blank" ><i class="bi bi-youtube"></i></a></div>
+		</div>
+		
+		<div class="d-flex flex-column justify-content-center datos">
+ 			 <div class="p-2"><i class="bi bi-whatsapp"></i> 0984969143</div>
+ 			 <div class="p-2"><i class="bi bi-envelope-fill"></i> lizgarciaba@gmail.com</div>
+  			 <div class="p-2">GUAYAQUIL-ECUADOR</div>
+  			
+		</div>
+
+	</footer>
+
+		
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+	<script>
+		const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+	</script>
+	
+	
+	
+</body>
+</html>

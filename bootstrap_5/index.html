@@ -47,19 +47,19 @@
         <h5 class="offcanvas-title" style="color:white;" id="offcanvasNavbarLabel">lizgarciaba@gmail.com</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+      <div class="offcanvas-body menu-pseudoclases">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 selector-universal selectores-atributos ">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://lizgarciaba.github.io/" target="_blank">Home</a>
+            <a class="nav-link " aria-current="page" href="https://lizgarciaba.github.io/" target="_blank" style="color:white;">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
               Dropdown
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu bg-success pseudoclases">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li>
@@ -68,11 +68,11 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
         </ul>
-        <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        
       </div>
     </div>
   </div>
@@ -93,7 +93,7 @@
 		<section class="row">
 			<article class="col-">
 
-						
+										
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a ducimus hic fugit, omnis ipsa, quibusdam totam sequi quaerat facilis, animi optio deleniti, provident. Voluptatem, veniam. Itaque eum, voluptates saepe.</p>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a ducimus hic fugit, omnis ipsa, quibusdam totam sequi quaerat facilis, animi optio deleniti, provident. Voluptatem, veniam. Itaque eum, voluptates saepe.</p>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a ducimus hic fugit, omnis ipsa, quibusdam totam sequi quaerat facilis, animi optio deleniti, provident. Voluptatem, veniam. Itaque eum, voluptates saepe.</p>
@@ -166,7 +166,7 @@
 		
 		<div class="d-flex flex-column justify-content-center datos">
  			 <div class="p-2"><i class="bi bi-whatsapp"></i> 0984969143</div>
- 			 <div class="p-2">lizgarciaba@gmail.com</div>
+ 			 <div class="p-2"><i class="bi bi-envelope-fill"></i> lizgarciaba@gmail.com</div>
   			 <div class="p-2">GUAYAQUIL-ECUADOR</div>
   			
 		</div>
@@ -175,9 +175,13 @@
 
 
 
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-	
+		
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+	<script>
+		const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+	</script>
 	
 	
 </body>
