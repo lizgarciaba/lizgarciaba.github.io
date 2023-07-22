@@ -106,9 +106,15 @@
             <label for="email" class="form-label">Email address</label>
             <input type="email" class="form-control form-control-sm form-control-md form-control-lg" id="email" name="email" placeholder="name@example.com" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Coloca Un Email Valido"required>
         </div>
+
         <div class="mb-3">
-            <label for="comentario" class="form-label">Comentario</label>
-            <textarea class=" form-control form-control-sm form-control-md form-control-lg" type="text" cols="31" rows="5" id="comentario" name="comentario" title="Dejanos tù comentario"placeholder="---" required></textarea>
+            <label for="telefono" class="form-label">Telefono</label>
+            <input type="tel" class="form-control form-control-sm form-control-md form-control-lg" id="telefono" name="telefono" placeholder="Solo nùmeros" pattern="^[0-9]+$" title="Ingrese un Nùmero Correcto"required>
+        </div>
+
+        <div class="mb-3">
+            <label for="comentario" class="form-label">Consulta/Comentario</label>
+            <textarea class=" form-control form-control-sm form-control-md form-control-lg" type="text" cols="31" rows="5" id="comentario" name="comentario" title="Dejanos tù comentario"placeholder="---" style="resize: none;" required></textarea>
         </div>
        
         <button type="submit" class="btn btn-primary" id="enviar" name="enviar"><i class="bi bi-send-fill"></i> Enviar</button>
