@@ -70,12 +70,7 @@ label{
 	
 }
 
-img{
-	border-radius: 50%;
-	cursor: pointer;
-	width: 150px;
-	height: 150px;
-}
+
 
 
 input[type="email"],input[type="text"],input[type="tel"],textarea#comentario{
@@ -144,6 +139,10 @@ nav{
 
 .fotos{
 	text-align: center;
+}
+
+.fotos-borde{
+	border-radius: 50%;
 }
 
 
@@ -217,6 +216,7 @@ ul .pseudoclases li a:hover{
 	.titulo{
 		font-size:1.3rem;
 	}
+
 
 	
 
