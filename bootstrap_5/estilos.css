@@ -111,7 +111,7 @@ nav{
 }
 
 
-.bi-facebook, .bi-instagram, .bi-youtube, .bi-envelope-fill, .bi-house-door-fill{
+.bi-facebook, .bi-instagram, .bi-youtube, .bi-envelope-fill, .bi-house-door-fill, .bi-pen-fill{
 	font-size: 25px;
 }
 
@@ -121,6 +121,10 @@ nav{
 
 .bi-instagram {
 	color:crimson;
+}
+
+.bi-house-door-fill, .bi-pen-fill{
+	color: white;
 }
 
 .d-flex{
