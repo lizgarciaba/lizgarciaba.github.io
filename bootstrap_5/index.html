@@ -5,8 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Bootstrap 5, Html, Css</title>
 	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="estilos.css">
+	
+	<!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Skranji&display=swap" rel="stylesheet">
+
+	
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 	<link rel="shortcut icon" type="imagen/x-icon" href="fotos/bootstrap.png" />
 	<link rel="apple-touch-icon" href="fotos/bootstrap.png">
@@ -22,6 +29,8 @@
     <meta property="og:image" content="https://lizgarciaba.github.io/bootstrap_5/fotos/bootstrap.jpg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@lizgaba">
+
+   
 
 
 </head>
@@ -63,7 +72,7 @@
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
               <li>
-                <hr class="dropdown-divider">
+                
               </li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
@@ -87,9 +96,12 @@
 <h1 class="titulo">BOOTSTRAP 5-HTML 5-CSS3</h1>
 <br>
 <br>
+		<div class="container-fluid">
+			
+		</div>
 
-			<div id="carouselExampleIndicators" class="carousel slide">
-  			<div class="carousel-indicators">
+			<div id="carouselExampleIndicators" class="carousel slide " >
+  			<div class="carousel-indicators ">
    			 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" style="background-color: blue;"class="active" aria-current="true" aria-label="Slide 1"	></button>
     			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" style="background-color: blue;" aria-label="Slide 2"></button>
    			 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" style="background-color: blue;" aria-label="Slide 3"></button>
@@ -120,7 +132,7 @@
 
 
 		<section class="row">
-			<article class="col- ">
+			<article class="col- mb-5">
 
 				
 
@@ -131,7 +143,7 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a ducimus hic fugit, omnis ipsa, quibusdam totam sequi quaerat facilis, animi optio deleniti, provident. Voluptatem, veniam. Itaque eum, voluptates saepe.</p>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a ducimus hic fugit, omnis ipsa, quibusdam totam sequi quaerat facilis, animi optio deleniti, provident. Voluptatem, veniam. Itaque eum, voluptates saepe.</p>
 				
-				<div class=" fotos ">
+				<!--<div class=" fotos ">
 					<div class="d-inline-block  aumento">
 						<img src="fotos/nexgard3.jpg" class="fotos-borde" alt="">
 					</div>
@@ -141,10 +153,22 @@
 					<div  class="d-inline-block aumento">
 						<img src="fotos/nextgard5.jpg" class="fotos-borde" alt="">
 					</div>
+				</div>-->
+
+				<div class="d-flex justify-content-center ">
+					<div class="aumento">
+						<img src="fotos/nexgard3.jpg" class="fotos-borde" alt="">
+					</div>
+					<div class="aumento">
+						<img src="fotos/nexgard4.jpg" class="fotos-borde" alt="">
+					</div>
+					<div class="aumento">
+						<img src="fotos/nextgard5.jpg" class="fotos-borde" alt="">
+					</div>
 				</div>
 				
 			</article>
-			<article class="col-12">
+			<article class="col-12 mb-3">
 				<img src="fotos/nextgard5.jpg"  alt="" class="float-end fotos-borde">
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae unde, rem quod cum, necessitatibus quisquam. Necessitatibus, maiores, aliquid et vitae praesentium officia quia. Quam, explicabo! Ex perspiciatis, alias tempore.</p>
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore vitae unde, rem quod cum, necessitatibus quisquam. Necessitatibus, maiores, aliquid et vitae praesentium officia quia. Quam, explicabo! Ex perspiciatis, alias tempore.</p>
@@ -177,6 +201,10 @@
 					Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Vitae, iste, nostrum! Facere dolorum tempora magni dignissimos quia unde, neque qui ipsum doloribus delectus incidunt totam nihil illum. Architecto, assumenda, veritatis.
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis labore maiores vitae reiciendis quasi sequi in aliquam doloribus eveniet magni corrupti, consectetur porro, eos, architecto natus cupiditate et? Repudiandae, id?
 				</p>
+
+				<div class="bg-imagen">
+					
+				</div>
 			</article>
 			
 			<article class="border col-md-4 col-lg-4 col-xlg-4 ">
@@ -202,11 +230,11 @@
 			</article>
 		</section>
 
-			
+		
 		
 	</div>
 
-	<a href="#" class="scroll-top">Ir arriba</a>
+	<a href="#" class="scroll-top">Ir arriba</a>	
 	
 
 	<footer>
