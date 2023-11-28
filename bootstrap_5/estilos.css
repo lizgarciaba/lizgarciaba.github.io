@@ -116,11 +116,13 @@ nav{
 .bg-imagen{
 	background-image: url(fotos/nexgard3.jpg);
 	background-size: 200px;
+	color: darkred;
 	margin-left: auto;
 	margin-right: auto;
 	width: 200px;
 	height: 200px;
 	border: thin solid blue;
+	font-size: 1rem;
 }
 
 
@@ -161,6 +163,7 @@ nav{
 .fotos-borde{
 	border-radius: 50%;
 }
+
 
 
 .menu-pseudoclases ul li a:hover{
@@ -268,7 +271,6 @@ ul.pseudoclases{
 	}
 
 
-
 @media screen and (max-width: 500px){
 
 	footer{
@@ -287,6 +289,11 @@ ul.pseudoclases{
 		margin-left: 0px;
 		margin-right: -10px;
 
+	}
+
+	.margen{
+	margin-top: 20px
+	}
 
 }
 
