@@ -37,9 +37,9 @@ footer{
 	color:orangered;
 	font-size: 1.5rem;
 	height:15%;
-	
+	opacity:;
 	text-align: center;
-	width: 100%;
+	width: ;
 }
 
 form{
@@ -115,14 +115,16 @@ nav{
 
 .bg-imagen{
 	background-image: url(fotos/nexgard3.jpg);
-	background-size: 200px;
+	background-size: cover;
+	
 	color: darkred;
 	margin-left: auto;
 	margin-right: auto;
-	width: 200px;
+	width:200px ;
 	height: 200px;
 	border: thin solid blue;
 	font-size: 1rem;
+	
 }
 
 
@@ -226,10 +228,9 @@ nav{
     position: fixed;
     bottom: 50px;
     right: 30px;
-    display: none; /* Estara oculto por defecto*/
     text-indent: -9999px;  /*Oculta el texto del enlace*/ 
     z-index: 1000;  /*Evita que otros elementos esten por encima*/ 
-    background: url('../fotos/arriba.png') no-repeat;
+    background: url('fotos/arriba.png') no-repeat;
 }
 
 .scroll-top:hover {
