@@ -157,6 +157,11 @@ nav{
 	color:limegreen;
 }
 
+.card{
+	border:thick solid gray;
+	color: #6535f5;
+}
+
 
 .fotos{
 	text-align: center;
@@ -300,11 +305,15 @@ ul.pseudoclases{
 }
 
 
-@media screen and (max-width: 570px){
+@media screen and (max-width: 574px){
 
 	.cartas{
 		margin-bottom: 25px;
 	}
+
+	.flex-container {
+    flex-direction: column;
+  }
 
 
 
