@@ -1,3 +1,18 @@
+:root {
+  --first-color: rgb(217, 0, 98);
+  --first-alpha-color: rgba(217, 0, 98, 0.75);
+  --second-color: rgb(20, 25, 45);
+  --second-alpha-color: rgba(20, 25, 45, 0.75);
+  --third-color: rgb(80, 20, 100);
+  --third-alpha-color: rgba(80, 20, 100, 0.75);
+
+  --link-color: rgb(80, 158, 227);
+  --link-alpha-color: rgba(80, 158, 227, 0.75);
+
+  --bg-color: rgb(245, 245, 245);
+  --bg-alpha-color: rgba(245, 245, 245, 0.75);
+}
+
 
 html{
 	box-sizing: border-box;
@@ -32,7 +47,7 @@ section{
 }
 
 footer{
-	background-color: black;
+	background-color: ;
 	bottom:;
 	color:orangered;
 	font-size: 1.5rem;
@@ -155,6 +170,10 @@ nav{
 
 .bi-whatsapp{
 	color:limegreen;
+}
+
+.bg-dark {
+  background-color: var(--second-color) !important;
 }
 
 .card{
@@ -298,14 +317,14 @@ ul.pseudoclases{
 	}
 
 	.margen{
-	margin-top: 20px
+	margin-top: 20px;
 	}
 
 	
 }
 
 
-@media screen and (max-width: 574px){
+@media screen and (max-width: 575px){
 
 	.cartas{
 		margin-bottom: 25px;
@@ -313,6 +332,10 @@ ul.pseudoclases{
 
 	.flex-container {
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+
   }
 
 
