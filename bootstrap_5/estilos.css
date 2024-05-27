@@ -316,9 +316,9 @@ ul.pseudoclases{
 
 	}
 
-	.margen{
+	/*.margen{
 	margin-top: 20px;
-	}
+	}*/
 
 	
 }
@@ -330,13 +330,13 @@ ul.pseudoclases{
 		margin-bottom: 25px;
 	}
 
-	.flex-container {
+	/*.flex-container {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 
 
-  }
+  }*/
 
 
 
